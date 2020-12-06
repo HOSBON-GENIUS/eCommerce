@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="./admin.css" />
+
+    <script
+      src="https://kit.fontawesome.com/9ad9a54963.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../scripts/font-awesome.js" crossorigin="anonymous"></script>
+
+    <title>Geniuss eCollectables Administration</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- side Navigation bar-->
+      <aside class="sidebar" id="sidebar">
+        <a href="">Geniuss eCollectables</a>
+        <hr />
+        <ul class="list-unstyled">
+          <li>
+            <a href=""><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+          </li>
+          <li>
+            <a href=""><i class="fas fa-pizza-slice"></i> Products</a>
+          </li>
+          <li>
+            <a href=""><i class="fas fa-user-friends"></i> Users</a>
+          </li>
+          <li>
+            <a href=""><i class="far fa-comments"></i> Comments</a>
+          </li>
+        </ul>
+      </aside>
+
+      <!-- Content-Wrapper -->
+      <main class="content-wrapper" id="main-content">
+        <!----Top bar---->
+        <nav id="navbar" class="topbar">
+          <button
+            id="sidebarToggleTop"
+            onclick="sidebarToggler();"
+            class="mr-auto"
+          >
+            <i class="fa fa-bars"></i>
+          </button>
+          <div class="dropdown ml-auto">
+            <a href="">Account</a>
+            <div class="dropdown-content">
+              <ul>
+                <li>
+                  <a href=""><i class="fas fa-user"></i> Profile</a>
+                </li>
+                <br />
+                <li>
+                  <a href=""><i class="fas fa-cogs"></i> Change Password</a>
+                </li>
+                <li><hr /></li>
+                <li>
+                  <a href=""><i class="fas fa-sign-out-alt"></i> Logout</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- Content area -->
+        <article class="content">
+          <h1>Products</h1>
+          <div class="underline"></div>
+          <br />
+          <button class="ml-auto btn">
+            <i class="fas fa-plus"></i> ADD TO CART
+          </button>
+          <div class="table-responsive">
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th>Products Name</th>
+                  <th>Price</th>
+                  <th>Category</th>
+                  <th>Description</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Big Black Couch</td>
+                  <td>KES. 30,000.00</td>
+                  <td>Furniture</td>
+                  <td>
+                    Valentine’s Day is just once a year. Don’t wait for that one day to tell your partner how much you love them. It’s really the little things in life that spark joy. Even something as simple as a sweet text message to let someone know that you’re thinking of them can make their day.
+                  </td>
+                  <td>
+                    <a class="btn bg-warning" href="">Delete</a>
+                    <a class="btn bg-success" href="">Edit</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Mansion</td>
+                  <td>KES. 150,000,000</td>
+                  <td>Mortgage</td>
+                  <td>
+                    Valentine’s Day is just once a year. Don’t wait for that one day to tell your partner how much you love them. It’s really the little things in life that spark joy. Even something as simple as a sweet text message to let someone know that you’re thinking of them can make their day.
+                  </td>
+                  <td>
+                    <a class="btn bg-warning" href="">Delete</a>
+                    <a class="btn bg-success" href="">Edit</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Lambo</td>
+                  <td>KES. 200,000,000</td>
+                  <td>SPECIAL OFFER</td>
+                  <td>
+                    Valentine’s Day is just once a year. Don’t wait for that one day to tell your partner how much you love them. It’s really the little things in life that spark joy. Even something as simple as a sweet text message to let someone know that you’re thinking of them can make their day.
+                  </td>
+                  <td>
+                    <a class="btn bg-warning" href="">Delete</a>
+                    <a class="btn bg-success" href="">Edit</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>CAMEO Cam</td>
+                  <td>KES 100,000</td>
+                  <td>SHOES</td>
+                  <td>
+                    F Valentine’s Day is just once a year. Don’t wait for that one day to tell your partner how much you love them. It’s really the little things in life that spark joy. Even something as simple as a sweet text message to let someone know that you’re thinking of them can make their day.
+                  </td>
+                  <td>
+                    <a class="btn bg-warning" href="">Delete</a>
+                    <a class="btn bg-success" href="">Edit</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </article>
+        
+        <!------Footer----- -->
+        <footer class="footer">
+          <div class="align-self-center">
+            <p class="text-center">All right Reserved. &copy;2020 Mill Geniuss</p>
+          </div>
+        </footer>
+      </main></div>
+    <script src="../scripts/main.js"></script>
+  </body>
+</html>
